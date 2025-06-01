@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     siteName: "Pershing Road Safety",
     images: [
       {
-        url: `${siteUrl}/og-speed-bumps.png`,
+        url: `${siteUrl}/og-speed-bumps-clean.png`,
         width: 1200,
         height: 630,
         alt: "Speed bump on a residential street - Request Speed Bumps for Pershing Road",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Speed Bumps for Pershing Road",
     description: "Help make our street safer. Send an email to Alderwoman Ramirez requesting speed bumps to stop dangerous speeding.",
-    images: [`${siteUrl}/twitter-speed-bumps.png`],
+    images: [`${siteUrl}/twitter-speed-bumps-clean.png`],
     creator: "@ward12chicago",
   },
   
