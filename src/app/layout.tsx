@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     siteName: "Pershing Road Safety",
     images: [
       {
-        url: `${siteUrl}/og-speed-bumps-clean.png`,
+        url: `${siteUrl}/og-speed-bumps-simple.png`,
         width: 1200,
         height: 630,
         alt: "Speed bump on a residential street - Request Speed Bumps for Pershing Road",
