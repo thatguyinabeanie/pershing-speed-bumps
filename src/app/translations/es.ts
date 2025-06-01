@@ -1,0 +1,59 @@
+export const es = {
+  title: "Solicitar Topes para Pershing Road",
+  subtitle: "Únase a Sus Vecinos para Hacer Nuestra Calle Más Segura",
+  urgentTitle: "Exceso de Velocidad Peligroso en Pershing Road",
+  urgentSubtitle: "Ayúdenos a instalar medidas de moderación del tráfico entre Kedzie y St. Louis",
+  criticalIssue: "Problemas de Seguridad Entre Kedzie y St. Louis",
+  mainDescription: "Pershing Road entre Kedzie y St. Louis ha experimentado violencia relacionada con pandillas que involucra persecuciones vehiculares a alta velocidad. Los residentes se están organizando para solicitar mejoras de seguridad inmediatas mediante medidas adecuadas de moderación del tráfico.",
+  documentedConcerns: "Preocupaciones de Seguridad Documentadas:",
+  concerns: {
+    gang: "Persecuciones vehiculares a alta velocidad relacionadas con pandillas",
+    criminal: "Actividad criminal que involucra conducción peligrosa",
+    modified: "Propietarios de vehículos modificados que aceleran a horas aleatorias del día y la noche",
+    daily: "Exceso de velocidad diario en calle residencial",
+    children: "Niños y familias en riesgo",
+    nearMiss: "Múltiples incidentes de casi accidentes con peatones"
+  },
+  whyUrgent: "Por Qué Se Necesitan Topes",
+  whyUrgentText: "Los topes son una medida comprobada de moderación del tráfico que reduce la velocidad de los vehículos y mejora la seguridad para todos los residentes.",
+  sendEmail: "Enviar Correo a la Concejala Ramirez (Distrito 12)",
+  yourName: "Su Nombre:",
+  to: "Para:",
+  subject: "Asunto:",
+  message: "Mensaje:",
+  showEmail: "📖 Mostrar Contenido del Correo",
+  hideEmail: "📖 Ocultar Contenido del Correo",
+  copyButton: "📋 Copiar Texto del Correo",
+  copiedButton: "✅ ¡Copiado! Ahora pegue en su correo",
+  openInApp: "O abrir directamente en su aplicación de correo:",
+  instructions: "Paso 1: Copie el texto del correo arriba, luego Paso 2: Haga clic en un botón de aplicación de correo, luego Paso 3: Pegue y envíe",
+  quickInstructions: "📝 Instrucciones Rápidas:",
+  instructionSteps: [
+    "Ingrese su nombre arriba para personalizar el correo",
+    "Haga clic en el botón 'Copiar Texto del Correo'",
+    "Haga clic en su botón de aplicación de correo preferido abajo",
+    "Pegue el texto copiado en el cuerpo del correo",
+    "¡Envíe el correo para que su voz sea escuchada!"
+  ],
+  successMessage: "🎯 ¡Cada correo cuenta! Está ayudando a hacer Pershing Road más seguro para las familias.",
+  detailsTitle: "Cómo Funciona - Por Qué los Topes Son Importantes",
+  fhwaLink: "FHWA: Medidas de Calma de Tráfico para Seguridad Pública",
+  cdotLink: "Chicago DOT: Proceso de Emergencia para Topes",
+  howItWorks: "Cómo Funciona - Pasos Simples",
+  steps: [
+    "Lea sobre el problema de seguridad en nuestra calle",
+    "Ingrese su nombre en el formulario a continuación",
+    "Haga clic en un botón para enviar el correo",
+    "Su voz se une con los vecinos para solicitar topes",
+    "Juntos hacemos nuestra calle más segura"
+  ],
+  whyItMatters: "Por Qué Su Correo Importa",
+  whyItMattersText: "Cuando muchos vecinos contactan al concejal sobre el mismo problema, muestra que es una prioridad real de la comunidad. Los topes necesitan apoyo comunitario para ser aprobados.",
+  whatNext: "Qué Pasa Después",
+  nextSteps: [
+    "La oficina del concejal recibe su correo",
+    "Ven que múltiples residentes están preocupados",
+    "Nuestro esfuerzo organizado muestra que somos serios",
+    "Los topes se priorizan para instalación"
+  ]
+};

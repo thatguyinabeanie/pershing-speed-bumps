@@ -1,0 +1,59 @@
+export const en = {
+  title: "Request Speed Bumps for Pershing Road",
+  subtitle: "Join Your Neighbors in Making Our Street Safer",
+  urgentTitle: "Dangerous Speeding on Pershing Road",
+  urgentSubtitle: "Help us get traffic calming measures installed between Kedzie and St. Louis",
+  criticalIssue: "Safety Issues Between Kedzie and St. Louis",
+  mainDescription: "Pershing Road between Kedzie and St. Louis has experienced gang-related violence involving high-speed vehicle chases. Residents are organizing to request immediate safety improvements through proper traffic calming measures.",
+  documentedConcerns: "Documented Safety Concerns:",
+  concerns: {
+    gang: "Gang-related high-speed vehicle chases",
+    criminal: "Criminal activity involving dangerous driving",
+    modified: "Modified vehicle owners speeding at random hours of the day and night",
+    daily: "Daily excessive speeding on residential street",
+    children: "Children and families at risk",
+    nearMiss: "Multiple near-miss incidents with pedestrians"
+  },
+  whyUrgent: "Why Speed Bumps Are Needed",
+  whyUrgentText: "Speed bumps are a proven traffic calming measure that reduce vehicle speeds and improve safety for all residents.",
+  sendEmail: "Send Email to Alderwoman Ramirez (Ward 12)",
+  yourName: "Your Name:",
+  to: "To:",
+  subject: "Subject:",
+  message: "Message:",
+  showEmail: "📖 Show Email Content",
+  hideEmail: "📖 Hide Email Content",
+  copyButton: "📋 Copy Email Text",
+  copiedButton: "✅ Copied! Now paste into your email",
+  openInApp: "Or open directly in your email app:",
+  instructions: "Step 1: Copy the email text above, then Step 2: Click an email app button, then Step 3: Paste and send",
+  quickInstructions: "📝 Quick Instructions:",
+  instructionSteps: [
+    "Enter your name above to personalize the email",
+    "Click 'Copy Email Text' button",
+    "Click your preferred email app button below",
+    "Paste the copied text into the email body",
+    "Send the email to make your voice heard!"
+  ],
+  successMessage: "🎯 Every email counts! You're helping make Pershing Road safer for families.",
+  detailsTitle: "How This Works - Why Speed Bumps Matter",
+  fhwaLink: "FHWA: Traffic Calming for Public Safety",
+  cdotLink: "Chicago DOT: Emergency Speed Hump Process",
+  howItWorks: "How This Works - Simple Steps",
+  steps: [
+    "Read about the safety problem on our street",
+    "Enter your name in the form below",
+    "Click a button to send the email",
+    "Your voice joins with neighbors to request speed bumps",
+    "Together we make our street safer"
+  ],
+  whyItMatters: "Why Your Email Matters",
+  whyItMattersText: "When many neighbors contact the alderman about the same issue, it shows this is a real community priority. Speed bumps need community support to get approved.",
+  whatNext: "What Happens Next",
+  nextSteps: [
+    "The alderman's office receives your email",
+    "They see multiple residents are concerned",
+    "Our organized effort shows we're serious",
+    "Speed bumps get prioritized for installation"
+  ]
+};

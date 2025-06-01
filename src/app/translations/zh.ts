@@ -1,0 +1,59 @@
+export const zh = {
+  title: "申请Pershing路减速带",
+  subtitle: "与邻居一起让我们的街道更安全",
+  urgentTitle: "Pershing路危险超速问题",
+  urgentSubtitle: "帮助我们在Kedzie和St. Louis之间安装交通缓和措施",
+  criticalIssue: "Kedzie和St. Louis之间的安全问题",
+  mainDescription: "Kedzie和St. Louis之间的Pershing路发生了涉及高速车辆追逐的帮派暴力事件。居民正在组织要求通过适当的交通缓和措施立即改善安全。",
+  documentedConcerns: "记录在案的安全问题：",
+  concerns: {
+    gang: "与帮派有关的高速车辆追逐",
+    criminal: "涉及危险驾驶的犯罪活动",
+    modified: "改装车主在白天和夜晚的随机时间超速行驶",
+    daily: "住宅街道每日超速",
+    children: "儿童和家庭面临风险",
+    nearMiss: "与行人多次险些发生事故"
+  },
+  whyUrgent: "为什么需要减速带",
+  whyUrgentText: "减速带是一种经过验证的交通缓和措施，可以降低车速并提高所有居民的安全。",
+  sendEmail: "向Ramirez议员发送邮件（第12区）",
+  yourName: "您的姓名：",
+  to: "收件人：",
+  subject: "主题：",
+  message: "信息：",
+  showEmail: "📖 显示邮件内容",
+  hideEmail: "📖 隐藏邮件内容",
+  copyButton: "📋 复制邮件文本",
+  copiedButton: "✅ 已复制！现在粘贴到您的邮件中",
+  openInApp: "或直接在您的邮件应用中打开：",
+  instructions: "步骤1：复制上面的邮件文本，然后步骤2：点击邮件应用按钮，然后步骤3：粘贴并发送",
+  quickInstructions: "📝 快速指南：",
+  instructionSteps: [
+    "在上面输入您的姓名以个性化邮件",
+    "点击'复制邮件文本'按钮",
+    "点击下面您首选的邮件应用按钮",
+    "将复制的文本粘贴到邮件正文中",
+    "发送邮件让您的声音被听到！"
+  ],
+  successMessage: "🎯 每一封邮件都很重要！您正在帮助Pershing路对家庭更安全。",
+  detailsTitle: "如何运作 - 为什么减速带很重要",
+  fhwaLink: "FHWA: 公共安全交通缓和措施",
+  cdotLink: "芝加哥交通部：紧急减速带流程",
+  howItWorks: "如何运作 - 简单步骤",
+  steps: [
+    "了解我们街道的安全问题",
+    "在下面的表格中输入您的姓名",
+    "点击按钮发送邮件",
+    "您的声音与邻居一起请求减速带",
+    "我们共同让街道更安全"
+  ],
+  whyItMatters: "为什么您的邮件很重要",
+  whyItMattersText: "当许多邻居就同一问题联系议员时，这表明这是社区的真正优先事项。减速带需要社区支持才能获得批准。",
+  whatNext: "接下来会发生什么",
+  nextSteps: [
+    "议员办公室收到您的邮件",
+    "他们看到多位居民都在关注",
+    "我们的组织努力表明我们是认真的",
+    "减速带优先安装"
+  ]
+};
