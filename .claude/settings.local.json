@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx shadcn@latest init:*)",
+      "Bash(vercel:*)",
+      "Bash(npm run build:*)",
+      "Bash(git commit:*)"
+    ],
+    "deny": []
+  }
+}
