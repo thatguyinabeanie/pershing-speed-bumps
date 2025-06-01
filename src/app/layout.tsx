@@ -21,10 +21,10 @@ export const metadata: Metadata = {
   authors: [{ name: "Pershing Road Residents" }],
   
   openGraph: {
-    title: "Request Speed Bumps for Pershing Road",
+    title: "Speed Bumps for Pershing Road",
     description: "Join your neighbors in making Pershing Road safer. Help us get traffic calming measures installed between Kedzie and St. Louis.",
     url: siteUrl,
-    siteName: "Pershing Road Speed Bump Campaign",
+    siteName: "Pershing Road Safety",
     images: [
       {
         url: `${siteUrl}/og-speed-bumps.png`,
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   
   twitter: {
     card: "summary_large_image",
-    title: "Request Speed Bumps for Pershing Road",
+    title: "Speed Bumps for Pershing Road",
     description: "Help make our street safer. Send an email to Alderwoman Ramirez requesting speed bumps to stop dangerous speeding.",
     images: [`${siteUrl}/twitter-speed-bumps.png`],
     creator: "@ward12chicago",
