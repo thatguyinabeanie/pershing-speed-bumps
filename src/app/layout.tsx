@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Speed Bumps for Pershing Road - Take Action Now",
-  description: "Help make Pershing Road safe. Send a pre-written email to Alderman Lopez requesting speed bumps to stop dangerous speeding.",
+  description: "Help make Pershing Road safe. Send a pre-written email to Alderwoman Ramirez requesting speed bumps to stop dangerous speeding.",
 };
 
 export default function RootLayout({

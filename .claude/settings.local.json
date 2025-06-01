@@ -4,7 +4,8 @@
       "Bash(npx shadcn@latest init:*)",
       "Bash(vercel:*)",
       "Bash(npm run build:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
     ],
     "deny": []
   }
