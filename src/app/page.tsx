@@ -90,7 +90,7 @@ Ward 12`;
             </p>
           </div>
           <a
-            href="https://github.com/yourusername/pershing-speed-bumps"
+            href="https://github.com/thatguyinabeanie/pershing-speed-bumps"
             target="_blank"
             rel="noopener noreferrer"
             className="absolute top-8 right-4 text-gray-700 hover:text-gray-900 transition-colors"
