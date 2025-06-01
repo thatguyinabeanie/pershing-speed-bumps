@@ -25,6 +25,14 @@ export const metadata: Metadata = {
     description: "Join your neighbors in making Pershing Road safer. Help us get traffic calming measures installed between Kedzie and St. Louis.",
     url: siteUrl,
     siteName: "Pershing Road Speed Bump Campaign",
+    images: [
+      {
+        url: `${siteUrl}/og-speed-bumps.png`,
+        width: 1200,
+        height: 630,
+        alt: "Speed bump on a residential street - Request Speed Bumps for Pershing Road",
+      }
+    ],
     locale: "en_US",
     type: "website",
   },
@@ -33,6 +41,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Request Speed Bumps for Pershing Road",
     description: "Help make our street safer. Send an email to Alderwoman Ramirez requesting speed bumps to stop dangerous speeding.",
+    images: [`${siteUrl}/twitter-speed-bumps.png`],
     creator: "@ward12chicago",
   },
   

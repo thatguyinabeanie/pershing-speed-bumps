@@ -237,6 +237,14 @@ Ward 12`;
           <p className="text-lg text-gray-700 font-medium">
             {t.urgentSubtitle}
           </p>
+          <div className="mt-6 flex justify-center">
+            <img 
+              src="/speed-bumps.png" 
+              alt="Speed bump example" 
+              className="rounded-lg shadow-md border-2 border-blue-200"
+              style={{ maxWidth: "300px", width: "100%", height: "auto" }}
+            />
+          </div>
         </div>
 
         {/* Collapsible Why Speed Bumps Matter Section */}
