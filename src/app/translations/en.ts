@@ -15,6 +15,7 @@ export const en = {
     nearMiss: "Multiple near-miss incidents with pedestrians"
   },
   whyUrgent: "Why Speed Bumps Are Needed",
+  whySpeedBumpsMatter: "Why Speed Bumps Matter",
   whyUrgentText: "Speed bumps are a proven traffic calming measure that reduce vehicle speeds and improve safety for all residents.",
   sendEmail: "Send Email to Alderwoman Ramirez (Ward 12)",
   yourName: "Your Name:",
@@ -36,6 +37,8 @@ export const en = {
     "Send the email to make your voice heard!"
   ],
   successMessage: "🎯 Every email counts! You're helping make Pershing Road safer for families.",
+  footerIssues: "Having issues with this website?",
+  submitIssue: "Submit an Issue",
   detailsTitle: "How This Works - Why Speed Bumps Matter",
   fhwaLink: "FHWA: Traffic Calming for Public Safety",
   cdotLink: "Chicago DOT: Emergency Speed Hump Process",

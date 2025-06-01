@@ -15,6 +15,7 @@ export const zh = {
     nearMiss: "与行人多次险些发生事故"
   },
   whyUrgent: "为什么需要减速带",
+  whySpeedBumpsMatter: "为什么减速带很重要",
   whyUrgentText: "减速带是一种经过验证的交通缓和措施，可以降低车速并提高所有居民的安全。",
   sendEmail: "向Ramirez议员发送邮件（第12区）",
   yourName: "您的姓名：",
@@ -36,6 +37,8 @@ export const zh = {
     "发送邮件让您的声音被听到！"
   ],
   successMessage: "🎯 每一封邮件都很重要！您正在帮助Pershing路对家庭更安全。",
+  footerIssues: "网站有问题吗？",
+  submitIssue: "提交问题",
   detailsTitle: "如何运作 - 为什么减速带很重要",
   fhwaLink: "FHWA: 公共安全交通缓和措施",
   cdotLink: "芝加哥交通部：紧急减速带流程",

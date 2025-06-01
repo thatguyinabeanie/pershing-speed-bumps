@@ -15,6 +15,7 @@ export const es = {
     nearMiss: "Múltiples incidentes de casi accidentes con peatones"
   },
   whyUrgent: "Por Qué Se Necesitan Topes",
+  whySpeedBumpsMatter: "Por Qué Importan los Topes",
   whyUrgentText: "Los topes son una medida comprobada de moderación del tráfico que reduce la velocidad de los vehículos y mejora la seguridad para todos los residentes.",
   sendEmail: "Enviar Correo a la Concejala Ramirez (Distrito 12)",
   yourName: "Su Nombre:",
@@ -36,6 +37,8 @@ export const es = {
     "¡Envíe el correo para que su voz sea escuchada!"
   ],
   successMessage: "🎯 ¡Cada correo cuenta! Está ayudando a hacer Pershing Road más seguro para las familias.",
+  footerIssues: "¿Tiene problemas con este sitio web?",
+  submitIssue: "Reportar un Problema",
   detailsTitle: "Cómo Funciona - Por Qué los Topes Son Importantes",
   fhwaLink: "FHWA: Medidas de Calma de Tráfico para Seguridad Pública",
   cdotLink: "Chicago DOT: Proceso de Emergencia para Topes",
