@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { translations, Language } from "./translations";
 
 export default function Home() {
@@ -10,6 +10,33 @@ export default function Home() {
   const [showEmail, setShowEmail] = useState(false);
   const [showDetails, setShowDetails] = useState(false);
   const [showWhyItMatters, setShowWhyItMatters] = useState(false);
+  
+  // Detect user's language on mount
+  useEffect(() => {
+    const detectLanguage = () => {
+      // Get browser language
+      const browserLang = navigator.language || navigator.languages?.[0] || 'en';
+      
+      // Extract the primary language code (e.g., 'es' from 'es-MX')
+      const primaryLang = browserLang.split('-')[0].toLowerCase();
+      
+      // Map to our supported languages
+      if (primaryLang === 'es') {
+        setLanguage('es');
+      } else if (primaryLang === 'zh') {
+        setLanguage('zh');
+      } else {
+        setLanguage('en'); // Default to English
+      }
+    };
+    
+    detectLanguage();
+  }, []);
+  
+  // Update document language attribute when language changes
+  useEffect(() => {
+    document.documentElement.lang = language;
+  }, [language]);
   
   const emailTo = "ward12@cityofchicago.org";
   const emailSubject = "Request for Speed Bumps - Pershing Road Safety Concerns";
