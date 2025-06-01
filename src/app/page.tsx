@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 import { translations, Language } from "./translations";
 
 export default function Home() {
@@ -265,12 +266,16 @@ Ward 12`;
             {t.urgentSubtitle}
           </p>
           <div className="mt-6 flex justify-center">
-            <img 
-              src="/speed-bumps.png" 
-              alt="Speed bump example" 
-              className="rounded-lg shadow-md"
-              style={{ maxWidth: "300px", width: "100%", height: "auto" }}
-            />
+            <div className="relative" style={{ maxWidth: "300px", width: "100%" }}>
+              <Image 
+                src="/speed-bumps.png" 
+                alt="Speed bump example" 
+                width={258}
+                height={195}
+                className="rounded-lg shadow-md w-full h-auto"
+                priority
+              />
+            </div>
           </div>
         </div>
 

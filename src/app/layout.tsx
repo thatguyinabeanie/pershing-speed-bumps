@@ -15,6 +15,12 @@ const geistMono = Geist_Mono({
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://pershing-speed-bumps.vercel.app";
 
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+};
+
 export const metadata: Metadata = {
   title: "Request Speed Bumps for Pershing Road - Take Action Now",
   description: "Join your neighbors in making Pershing Road safer. Send a pre-written email to Alderwoman Ramirez requesting speed bumps to stop dangerous speeding between Kedzie and St. Louis.",
@@ -44,12 +50,6 @@ export const metadata: Metadata = {
     description: "Help make our street safer. Send an email to Alderwoman Ramirez requesting speed bumps to stop dangerous speeding.",
     images: [`${siteUrl}/twitter-speed-bumps-clean.png`],
     creator: "@ward12chicago",
-  },
-  
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-    maximumScale: 1,
   },
   
   robots: {
