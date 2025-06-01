@@ -241,7 +241,7 @@ Ward 12`;
             <img 
               src="/speed-bumps.png" 
               alt="Speed bump example" 
-              className="rounded-lg shadow-md border-2 border-blue-200"
+              className="rounded-lg shadow-md"
               style={{ maxWidth: "300px", width: "100%", height: "auto" }}
             />
           </div>
