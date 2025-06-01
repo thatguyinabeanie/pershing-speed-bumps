@@ -12,9 +12,48 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://pershing-speed-bumps.vercel.app";
+
 export const metadata: Metadata = {
-  title: "Speed Bumps for Pershing Road - Take Action Now",
-  description: "Help make Pershing Road safe. Send a pre-written email to Alderwoman Ramirez requesting speed bumps to stop dangerous speeding.",
+  title: "Request Speed Bumps for Pershing Road - Take Action Now",
+  description: "Join your neighbors in making Pershing Road safer. Send a pre-written email to Alderwoman Ramirez requesting speed bumps to stop dangerous speeding between Kedzie and St. Louis.",
+  keywords: ["Pershing Road", "speed bumps", "Chicago", "Ward 12", "traffic safety", "community organizing", "Alderwoman Ramirez"],
+  authors: [{ name: "Pershing Road Residents" }],
+  
+  openGraph: {
+    title: "Request Speed Bumps for Pershing Road",
+    description: "Join your neighbors in making Pershing Road safer. Help us get traffic calming measures installed between Kedzie and St. Louis.",
+    url: siteUrl,
+    siteName: "Pershing Road Speed Bump Campaign",
+    locale: "en_US",
+    type: "website",
+  },
+  
+  twitter: {
+    card: "summary_large_image",
+    title: "Request Speed Bumps for Pershing Road",
+    description: "Help make our street safer. Send an email to Alderwoman Ramirez requesting speed bumps to stop dangerous speeding.",
+    creator: "@ward12chicago",
+  },
+  
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+    maximumScale: 1,
+  },
+  
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  
 };
 
 export default function RootLayout({
